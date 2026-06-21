@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul & Anjali - Royal Wedding Invitation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Montserrat:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="particle-container"></div>
+
+    <div id="portal-overlay" class="portal-overlay">
+        <div class="envelope-wrapper" id="envelope-wrapper">
+            <div class="envelope" id="main-envelope">
+                <div class="envelope-front">
+                    <div class="royal-crest-seal" id="wax-seal">
+                        <div class="seal-inner">
+                            <i class="fa-solid fa-crown gold-crown"></i>
+                            <span>R & A</span>
+                        </div>
+                    </div>
+                    <div class="envelope-details">
+                        <div class="gold-border-box"></div>
+                        <p class="brand-subtext">Invitly Elite Presenting</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="revealed-card-container hidden" id="revealed-card-container">
+            <div class="luxury-card-inner">
+                <div class="card-ornament top-ornament">👑</div>
+                <p class="card-subtitle">Together With Their Families</p>
+                <h1 class="card-main-title">RAHUL</h1>
+                <div class="card-ampersand">&</div>
+                <h1 class="card-main-title">ANJALI</h1>
+                <p class="card-request">Request The Honour Of Your Presence<br>At Their Royal Wedding Celebration</p>
+                <div class="card-divider">✨ • ⚜️ • ✨</div>
+                <button class="gold-shimmer-btn" id="btn-open-main-site">Open Royal Invitation</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="main-website" class="main-website hidden-content">
+        
+        <header class="hero-section">
+            <div class="hero-bg-image" style="background-image: url('images/hero_palace_bg.jpg');"></div>
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <div class="crown-icon-container"><i class="fa-solid fa-crown animated-crown"></i></div>
+                <h1 class="hero-names">RAHUL <span class="gold-amp">&</span> ANJALI</h1>
+                <p class="hero-tagline">"Two Hearts, One Royal Destiny"</p>
+                <div class="hero-divider"></div>
+                <p class="hero-date"><i class="fa-regular fa-calendar-days"></i> 15 December 2026</p>
+                <p class="hero-venue"><i class="fa-solid fa-gopuram"></i> The Royal Palace, Udaipur</p>
+                
+                <div class="countdown-display gold-timer" id="countdown-timer">
+                    <div class="time-block"><span id="days">00</span><p>Days</p></div>
+                    <div class="time-block"><span id="hours">00</span><p>Hrs</p></div>
+                    <div class="time-block"><span id="minutes">00</span><p>Mins</p></div>
+                    <div class="time-block"><span id="seconds">00</span><p>Secs</p></div>
+                </div>
+
+                <a href="#story" class="scroll-down-btn"><i class="fa-solid fa-chevron-down"></i> View Celebration</a>
+            </div>
+        </header>
+
+        <section class="section-padding story-section" id="story">
+            <div class="container">
+                <h2 class="section-title text-center">Our Royal Love Story</h2>
+                <div class="decorative-line"><span>⚜️</span></div>
+
+                <div class="timeline">
+                    <div class="timeline-item left reveal-on-scroll">
+                        <div class="timeline-content">
+                            <span class="story-date">The First Royal Rendezvous</span>
+                            <h3>A Majestic Encounter</h3>
+                            <p>Fate orchestrated their first meeting amidst the timeless beauty of Jaipur's golden court. A simple gaze sparked an eternal commitment destined across lifetimes.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item right reveal-on-scroll">
+                        <div class="timeline-content">
+                            <span class="story-date">The Courting Epics</span>
+                            <h3>Letters Written in Gold</h3>
+                            <p>Across grand palaces and serene lakes, months of aristocratic poetry and mutual adoration unified their families, building a foundation of unbreakable royal honor.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item left reveal-on-scroll">
+                        <div class="timeline-content">
+                            <span class="story-date">The Eternal Acceptance</span>
+                            <h3>The Imperial Proposal</h3>
+                            <p>Underneath a canopy of custom fireworks and royal classical harmonies, Maharaja Rahul formally requested the hand of Maharani Anjali, sealing their path toward one shared destiny.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-padding events-section" id="events">
+            <div class="container">
+                <h2 class="section-title text-center">The Royal Festivities</h2>
+                <div class="decorative-line"><span>⚜️</span></div>
+
+                <div class="events-grid">
+                    <div class="event-card reveal-on-scroll">
+                        <div class="card-shimmer"></div>
+                        <div class="event-icon"><i class="fa-solid fa-circle-dot yellow-gold"></i></div>
+                        <h3>Haldi Ceremony</h3>
+                        <p class="event-meta"><i class="fa-regular fa-calendar"></i> Dec 13, 2026 | 10:00 AM</p>
+                        <p class="event-loc"><i class="fa-solid fa-location-dot"></i> The Sukh Niwas Courtyard</p>
+                        <p class="event-notes">Drench in the vibrant shades of marigold and sacred turmeric blessings.</p>
+                    </div>
+                    <div class="event-card reveal-on-scroll">
+                        <div class="card-shimmer"></div>
+                        <div class="event-icon"><i class="fa-solid fa-spa green-gold"></i></div>
+                        <h3>Mehendi Ceremony</h3>
+                        <p class="event-meta"><i class="fa-regular fa-calendar"></i> Dec 13, 2026 | 04:00 PM</p>
+                        <p class="event-loc"><i class="fa-solid fa-location-dot"></i> Lakeview Mewar Terraces</p>
+                        <p class="event-notes">Intricate dark henna motifs symbolizing deep love and timeless promises.</p>
+                    </div>
+                    <div class="event-card reveal-on-scroll">
+                        <div class="card-shimmer"></div>
+                        <div class="event-icon"><i class="fa-solid fa-music purple-gold"></i></div>
+                        <h3>Sangeet Night</h3>
+                        <p class="event-meta"><i class="fa-regular fa-calendar"></i> Dec 14, 2026 | 07:00 PM</p>
+                        <p class="event-loc"><i class="fa-solid fa-location-dot"></i> The Durbar Grand Ballroom</p>
+                        <p class="event-notes">An evening filled with orchestral dynamic dance rhythms and imperial feasts.</p>
+                    </div>
+                    <div class="event-card reveal-on-scroll">
+                        <div class="card-shimmer"></div>
+                        <div class="event-icon"><i class="fa-solid fa-gopuram high-gold"></i></div>
+                        <h3>Royal Wedding</h3>
+                        <p class="event-meta"><i class="fa-regular fa-calendar"></i> Dec 15, 2026 | 07:00 PM Onwards</p>
+                        <p class="event-loc"><i class="fa-solid fa-location-dot"></i> The Royal Palace, Udaipur</p>
+                        <p class="event-notes">The historic Vedic union of souls beneath the auspicious star alignments.</p>
+                    </div>
+                    <div class="event-card reveal-on-scroll">
+                        <div class="card-shimmer"></div>
+                        <div class="event-icon"><i class="fa-solid fa-champagne-glasses"></i></div>
+                        <h3>Grand Reception</h3>
+                        <p class="event-meta"><i class="fa-regular fa-calendar"></i> Dec 16, 2026 | 08:00 PM</p>
+                        <p class="event-loc"><i class="fa-solid fa-location-dot"></i> Palace Jagmandir Lawns</p>
+                        <p class="event-notes">A royal banquet greeting distinguished dignitaries across the globe.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-padding venue-section">
+            <div class="container text-center">
+                <h2 class="section-title">The Imperial Venue</h2>
+                <div class="decorative-line"><span>⚜️</span></div>
+                
+                <div class="venue-card reveal-on-scroll">
+                    <div class="venue-img-frame">
+                        <img src="venue_palace.jpg" alt="The Royal Palace, Udaipur" class="venue-img">
+                    </div>
+                    <div class="venue-info">
+                        <h3>The Royal Palace, Udaipur</h3>
+                        <p class="venue-tag-line">Pristine Architecture • Lake Pichola Vistas • Historic Sovereignty</p>
+                        <p>Experience the timeless romanticism of Mewar. Nestled directly into magnificent historic infrastructure, our majestic day will transform into a permanent historic baseline inside India's premier legacy landmark.</p>
+                        <div class="venue-buttons">
+                            <a href="https://www.google.com/travel/hotels/s/3LKhL3ZgQH3okQZy5" target="_blank" class="gold-shimmer-btn navigation-btn"><i class="fa-solid fa-map-location-dot"></i> View on Google Maps</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-padding gallery-section">
+            <div class="container">
+                <h2 class="section-title text-center">The Royal Gallery</h2>
+                <div class="decorative-line"><span>⚜️</span></div>
+
+                <div class="masonry-grid">
+                    <div class="masonry-item reveal-on-scroll" onclick="openLightbox('images/gallery_1.jpg', 'Palace Shoot Canvas I')">
+                        <img src="images/gallery_1.jpg" alt="Gallery 1" class="gallery-img">
+                    </div>
+                    <div class="masonry-item reveal-on-scroll" onclick="openLightbox('images/gallery_2.jpg', 'Imperial Lake Attire Canvas II')">
+                        <img src="images/gallery_2.jpg" alt="Gallery 2" class="gallery-img">
+                    </div>
+                    <div class="masonry-item reveal-on-scroll" onclick="openLightbox('images/gallery_3.jpg', 'Golden Heritage Canvas III')">
+                        <img src="images/gallery_3.jfif" alt="Gallery 3" class="gallery-img">
+                    </div>
+                    <div class="masonry-item reveal-on-scroll" onclick="openLightbox('images/gallery_4.jpg', 'Vintage Fort Canvas IV')">
+                        <img src="images/gallery_4.jpg" alt="Gallery 4" class="gallery-img">
+                    </div>
+                    <div class="masonry-item reveal-on-scroll" onclick="openLightbox('images/gallery_5.jpg', 'Traditional Emerald Attire V')">
+                        <img src="images/gallery_5.jpeg" alt="Gallery 5" class="gallery-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div id="lightbox" class="lightbox-modal" onclick="closeLightbox()">
+            <span class="close-lightbox">×</span>
+            <div class="lightbox-content-box">
+                <img id="lightbox-img" src="" alt="Enlarged Royal Pic" class="lightbox-real-img">
+                <div class="lightbox-caption" id="lightbox-caption">Caption Text</div>
+            </div>
+        </div>
+
+        <section class="section-padding family-section">
+            <div class="container text-center">
+                <h2 class="section-title">The Royal Pillars</h2>
+                <div class="decorative-line"><span>⚜️</span></div>
+
+                <div class="family-grid">
+                    <div class="family-column reveal-on-scroll">
+                        <div class="family-header-gold">Groom's Lineage</div>
+                        <ul class="family-list">
+                            <li><strong>Late Maharaja Rajvardhan Singh</strong> <small>(Grandfather)</small></li>
+                            <li><strong>Maharaja Vikramaditya Singh</strong> <small>(Father)</small></li>
+                            <li><strong>Maharani Gayatri Devi</strong> <small>(Mother)</small></li>
+                            <li><strong>Yuvraj Shailendra Singh</strong> <small>(Elder Brother)</small></li>
+                        </ul>
+                    </div>
+                    <div class="family-column reveal-on-scroll">
+                        <div class="family-header-gold">Bride's Lineage</div>
+                        <ul class="family-list">
+                            <li><strong>Raja Bhupendra Vardhan Singh</strong> <small>(Grandfather)</small></li>
+                            <li><strong>Raja Harshvardhan Singh</strong> <small>(Father)</small></li>
+                            <li><strong>Rani Devyani Raje</strong> <small>(Mother)</small></li>
+                            <li><strong>Princess Vasundhara Raje</strong> <small>(Elder Sister)</small></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-padding rsvp-section">
+            <div class="container">
+                <div class="rsvp-card-wrapper reveal-on-scroll">
+                    <h2 class="section-title text-center">Royal RSVP</h2>
+                    <p class="rsvp-subtitle text-center">Kindly honor us with your royal response before December 01, 2026</p>
+                    
+                    <form id="rsvp-form" onsubmit="handleRSVP(event)">
+                        <div class="form-group">
+                            <label>Imperial Guest Name</label>
+                            <input type="text" required placeholder="Ex: Kunwar Digvijay Singh">
+                        </div>
+                        <div class="form-group">
+                            <label>Contact Number</label>
+                            <input type="tel" required placeholder="Ex: +91 98765 43210">
+                        </div>
+                        <div class="form-row-twin">
+                            <div class="form-group">
+                                <label>Number of Dignitaries</label>
+                                <select>
+                                    <option>1 Royal Member</option>
+                                    <option>2 Royal Members</option>
+                                    <option>3 Royal Members</option>
+                                    <option>4+ Royal Members</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Attendance Preference</label>
+                                <select>
+                                    <option>Joyfully Accepting All Events</option>
+                                    <option>Regretfully Declining</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Blessings & Special Imperial Requests</label>
+                            <textarea rows="4" placeholder="Any dietary preferences or specific requirements..."></textarea>
+                        </div>
+                        <button type="submit" class="gold-shimmer-btn rsvp-submit-btn">Send Royal Confirmation</button>
+                    </form>
+                    <div id="rsvp-success" class="hidden-alert text-center">
+                        <i class="fa-solid fa-circle-check gold-amp"></i>
+                        <h3>Your response has been secured with honor.</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="royal-footer">
+            <div class="container text-center">
+                <h2 class="footer-brand">Invitly Elite</h2>
+                <p class="footer-tag">Crafting Masterpiece Digital Portals For The World's Elite Sovereigns</p>
+                
+                <div class="footer-socials">
+                    <a href="https://wa.me/" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="mailto:elite@invitly.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+                </div>
+
+                <div class="footer-divider"></div>
+                <p class="copyright">© 2026 Invitly Elite. Tailored beautifully for Rahul & Anjali.</p>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
